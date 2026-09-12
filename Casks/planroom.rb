@@ -15,7 +15,7 @@ cask "planroom" do
   desc "Native macOS viewer for Microsoft Project (.mpp) files"
   homepage "https://github.com/pdlc-os/Planroom"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Planroom.app"
 
